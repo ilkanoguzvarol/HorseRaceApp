@@ -14,16 +14,15 @@ using AtYarisiYeni.Helpers;
 
 namespace AtYarisiYeni
 {
-    public partial class Form1 : Form
+    public partial class HorseAppMain : Form
     {
-        public Form1()
+        public HorseAppMain()
         {
             InitializeComponent();
         }
 
         #region global değişkenler
         int at1kor, at2kor, at3kor, at4kor;
-        private string kisi1, kisi2, kisi3;
         int zaman = 0;
         int para = 0;
         int kazanilanPara = 0;
@@ -68,28 +67,24 @@ namespace AtYarisiYeni
             {
                 timer1.Stop();
                 timer2.Stop();
-                lblSunum.Text = "THE RACE IS OVER !";
                 YarisBitti("SAHBATUR");
             }
             else if (at2.Right >= finish.Left)
             {
                 timer1.Stop();
                 timer2.Stop();
-                lblSunum.Text = "THE RACE IS OVER !";
                 YarisBitti("GULBATUR");
             }
             else if (at3.Right >= finish.Left)
             {
                 timer1.Stop();
                 timer2.Stop();
-                lblSunum.Text = "THE RACE IS OVER !";
                 YarisBitti("KARABACAK");
             }
             else if (at4.Right >= finish.Left)
             {
                 timer1.Stop();
                 timer2.Stop();
-                lblSunum.Text = "THE RACE IS OVER !";
                 YarisBitti("GULBEYAZ");
             }
 
@@ -166,14 +161,13 @@ namespace AtYarisiYeni
             string sonDurum = "";
             foreach (DataRow item in dtYarisId.Rows)
             {
-                sonDurum = sonDurum + item.ItemArray[1].ToString() + "-" + item.ItemArray[3].ToString() + "-" + item.ItemArray[2].ToString() + "\n";
+                sonDurum = sonDurum + " Bahisci Adı : " + item.ItemArray[1].ToString() + " At Adı : " + item.ItemArray[3].ToString() + " Tutar:" + item.ItemArray[2].ToString() + "\n";
             }
 
             kazanilanPara = oynanacakPara * 2;
             kaybedilenPara = oynanacakPara;
             para += kazanilanPara;
-            MessageBox.Show("Tebrikler, yarışı " + atAdi + " ile " + kazananKisi + " kazandı. Yarış " + zaman + " saniye sürdü. " + kazanilanPara.ToString() + " kadar para kazandınız.");
-            MessageBox.Show(sonDurum);
+            MessageBox.Show("Tebrikler, yarışı " + atAdi + " kazandı. Yarış " + zaman + " saniye sürdü. " + kazanilanPara.ToString() + " kadar para kazandınız. " + Environment.NewLine + " Yarıştaki bahis bilgileri aşağıdaki gibidir. " + Environment.NewLine + " " + sonDurum + "");
             Temizle();
 
         }
@@ -207,7 +201,7 @@ namespace AtYarisiYeni
 
         public void btnGuncelDurum_Click(object sender, EventArgs e)
         {
-            Form2 openForm = new Form2();
+            HorseAppDetail openForm = new HorseAppDetail();
             openForm.Show();
         }
 
@@ -312,7 +306,6 @@ namespace AtYarisiYeni
             at4kor = at4.Left;
             zaman = 0;
             lblZaman.Text = zaman.ToString();
-            lblSunum.Text = "";
             OranBelirle();
             FillComboBahisciler();
         }

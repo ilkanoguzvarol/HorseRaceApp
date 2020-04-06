@@ -1,6 +1,6 @@
 ﻿namespace AtYarisiYeni
 {
-    partial class Form1
+    partial class HorseAppMain
     {
         /// <summary>
         /// Required designer variable.
@@ -46,7 +46,6 @@
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.lblSunum = new System.Windows.Forms.Label();
             this.finish = new System.Windows.Forms.PictureBox();
             this.at4 = new System.Windows.Forms.PictureBox();
             this.at3 = new System.Windows.Forms.PictureBox();
@@ -233,16 +232,6 @@
             this.timer2.Interval = 1000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
-            // lblSunum
-            // 
-            this.lblSunum.AutoSize = true;
-            this.lblSunum.Font = new System.Drawing.Font("DS-Digital", 20.25F, System.Drawing.FontStyle.Bold);
-            this.lblSunum.Location = new System.Drawing.Point(543, 9);
-            this.lblSunum.Name = "lblSunum";
-            this.lblSunum.Size = new System.Drawing.Size(82, 27);
-            this.lblSunum.TabIndex = 6;
-            this.lblSunum.Text = "SUNUM";
-            // 
             // finish
             // 
             this.finish.Image = global::AtYarisiYeni.Properties.Resources.finish;
@@ -300,7 +289,6 @@
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(1212, 746);
             this.Controls.Add(this.finish);
-            this.Controls.Add(this.lblSunum);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblZaman);
             this.Controls.Add(this.label1);
@@ -342,7 +330,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
-        private System.Windows.Forms.Label lblSunum;
         private System.Windows.Forms.PictureBox finish;
         private System.Windows.Forms.PictureBox at3;
         private System.Windows.Forms.PictureBox at4;

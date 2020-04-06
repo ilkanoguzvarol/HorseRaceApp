@@ -1,6 +1,6 @@
 ﻿namespace AtYarisiYeni
 {
-    partial class Form2
+    partial class HorseAppDetail
     {
         /// <summary>
         /// Required designer variable.

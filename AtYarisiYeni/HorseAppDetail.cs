@@ -12,9 +12,9 @@ using AtYarisiYeni.Helpers;
 
 namespace AtYarisiYeni
 {
-    public partial class Form2 : Form
+    public partial class HorseAppDetail : Form
     {
-        public Form2()
+        public HorseAppDetail()
         {
             InitializeComponent();
         }

@@ -17,3 +17,13 @@ C:\Users\Oguz\Desktop\AtYarisiYeni\AtYarisiYeni\bin\Debug\AtYarisiYeni.pdb
 C:\Users\Oguz\Desktop\AtYarisiYeni\AtYarisiYeni\obj\Debug\AtYarisiYeni.exe
 C:\Users\Oguz\Desktop\AtYarisiYeni\AtYarisiYeni\obj\Debug\AtYarisiYeni.pdb
 C:\Users\Oguz\Desktop\AtYarisiYeni\AtYarisiYeni\obj\Debug\AtYarisiYeni.csprojAssemblyReference.cache
+C:\Users\Oguz\Desktop\HorseRaceApp\AtYarisiYeni\obj\Debug\AtYarisiYeni.csprojAssemblyReference.cache
+C:\Users\Oguz\Desktop\HorseRaceApp\AtYarisiYeni\obj\Debug\AtYarisiYeni.Properties.Resources.resources
+C:\Users\Oguz\Desktop\HorseRaceApp\AtYarisiYeni\obj\Debug\AtYarisiYeni.csproj.GenerateResource.cache
+C:\Users\Oguz\Desktop\HorseRaceApp\AtYarisiYeni\obj\Debug\AtYarisiYeni.exe
+C:\Users\Oguz\Desktop\HorseRaceApp\AtYarisiYeni\obj\Debug\AtYarisiYeni.pdb
+C:\Users\Oguz\Desktop\HorseRaceApp\AtYarisiYeni\obj\Debug\AtYarisiYeni.HorseAppMain.resources
+C:\Users\Oguz\Desktop\HorseRaceApp\AtYarisiYeni\bin\Debug\AtYarisiYeni.exe.config
+C:\Users\Oguz\Desktop\HorseRaceApp\AtYarisiYeni\bin\Debug\AtYarisiYeni.exe
+C:\Users\Oguz\Desktop\HorseRaceApp\AtYarisiYeni\bin\Debug\AtYarisiYeni.pdb
+C:\Users\Oguz\Desktop\HorseRaceApp\AtYarisiYeni\obj\Debug\AtYarisiYeni.HorseAppDetail.resources
